@@ -28,7 +28,7 @@ import {
   IonAccordionGroup,
   IonCheckbox,
   IonTextarea,
-  IonInput,
+  IonInput
 } from '@ionic/angular/standalone';
 
 @Component({
