@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>
+      <img src="assets/logo.png" alt="Logo Cadmo" style="height: 40px;" />
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content id="main-content" class="ion-padding">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Preferenze Utente</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label>Modalità Scura</ion-label>
+        <ion-toggle></ion-toggle>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Notifiche Email</ion-label>
+        <ion-toggle checked="true"></ion-toggle>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Notifiche Push</ion-label>
+        <ion-toggle></ion-toggle>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Lingua</ion-label>
+        <ion-select placeholder="Seleziona lingua">
+          <ion-select-option value="it">Italiano</ion-select-option>
+          <ion-select-option value="en">Inglese</ion-select-option>
+          <ion-select-option value="es">Spagnolo</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Tema Colori</ion-label>
+        <ion-select placeholder="Tema">
+          <ion-select-option value="default">Predefinito</ion-select-option>
+          <ion-select-option value="blue">Blu</ion-select-option>
+          <ion-select-option value="dark">Scuro</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-button expand="block" color="danger">Ripristina Impostazioni</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

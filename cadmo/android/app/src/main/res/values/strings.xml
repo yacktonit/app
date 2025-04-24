@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">cadmo</string>
+    <string name="title_activity_main">cadmo</string>
+    <string name="package_name">ionic.cadmo</string>
+    <string name="custom_url_scheme">ionic.cadmo</string>
+</resources>

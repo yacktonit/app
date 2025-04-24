@@ -1,0 +1,24 @@
+ion-card {
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  ion-card-title {
+    font-size: 1.4rem;
+    color: #222;
+  }
+  
+  ion-item {
+    --padding-start: 12px;
+    --inner-padding-end: 12px;
+    font-size: 1rem;
+  }
+  
+  ion-toggle {
+    margin-right: 10px;
+  }
+  
+  ion-select {
+    width: 100%;
+  }
+  

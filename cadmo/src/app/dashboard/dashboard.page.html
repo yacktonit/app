@@ -1,0 +1,140 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>
+      <img src="assets/logo.png" alt="Logo Cadmo" style="height: 40px; margin-top: 5px;" />
+    </ion-title>
+    <ion-avatar slot="end">
+      <img src="assets/user.png" alt="Avatar" style="height: 40px; width: 40px; margin-top: 10px; margin-right: 10px;" />
+    </ion-avatar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content id="main-content">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" size-md="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Presenze</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <div class="chart-circle">
+              <canvas id="presenzeChart"></canvas>
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="12" size-md="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Voti</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <div class="chart-circle">
+              <canvas id="votiChart"></canvas>
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="12" size-md="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Scadenze</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <div class="chart-circle">
+              <canvas id="scadenzeChart"></canvas>
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Calendario</ion-card-title>
+          </ion-card-header>
+          <ion-card-content class="calendar-wrapper">
+            <ion-datetime presentation="date" show-default-buttons="true"></ion-datetime>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12" size-md="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Avvisi Recenti</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-list>
+              <ion-item>📌 Compito di matematica venerdì</ion-item>
+              <ion-item>📌 Aula Apple non disponibile domani</ion-item>
+              <ion-item>📌 Caricare il progetto entro domenica</ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="12" size-md="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Da Fare</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-list>
+              <ion-item>
+                <ion-checkbox slot="start" checked></ion-checkbox>
+                Studiare HTML
+              </ion-item>
+              <ion-item>
+                <ion-checkbox slot="start"></ion-checkbox>
+                Finire esercizio Angular
+              </ion-item>
+              <ion-item>
+                <ion-checkbox slot="start"></ion-checkbox>
+                Consegnare relazione
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12" size-md="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Prossimi Eventi</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-list>
+              <ion-item>📅 24 Aprile - Consegna progetto</ion-item>
+              <ion-item>📅 26 Aprile - Verifica di Reti</ion-item>
+              <ion-item>📅 30 Aprile - Presentazione gruppo</ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="12" size-md="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Messaggio dal Docente</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>
+              "Non dimenticate di consultare la piattaforma per le slide aggiornate del corso."
+            </p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
