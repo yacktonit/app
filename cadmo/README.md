@@ -1,6 +1,11 @@
 
 # Cadmo App
 
+
+Link Repository GitHub:
+https://github.com/yacktonit/app
+
+
 ## Descrizione
 
 Cadmo è un'applicazione web sviluppata utilizzando Ionic e Angular, destinata alla gestione di corsi, scadenze, presenze, voti e altre informazioni utili. L'app include una dashboard con grafici interattivi, un menu di navigazione e funzionalità per monitorare e gestire attività.
