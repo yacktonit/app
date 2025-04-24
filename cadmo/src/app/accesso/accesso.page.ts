@@ -82,13 +82,11 @@ export class AccessoPage {
 
   constructor(private router: Router) {}
 
-  // Login simulato
   login() {
     console.log('Login inviato!');
     this.router.navigate(['/dashboard']);
   }
 
-  // Registrazione simulata
   register() {
     if (this.acceptTerms) {
       console.log('Registrazione inviata!');
@@ -98,7 +96,6 @@ export class AccessoPage {
     }
   }
 
-  // Navigazioni
   navigateToHome() {
     this.router.navigate(['/home']);
   }
