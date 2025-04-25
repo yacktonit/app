@@ -4,16 +4,17 @@
   align-items: center;
   width: 100%;
   margin-top: 40px;
+  padding: 0 16px; /* Aggiungi padding per evitare che il contenuto tocchi i bordi su schermi piccoli */
 }
 
 #card-content {
-  width: 90%;
+  width: 100%;
   max-width: 500px;
 }
 
 ion-card {
   background-color: #f9f9f9;
-  padding: 40px;
+  padding: 20px;  /* Ridotto il padding per evitare troppo spazio */
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
@@ -85,3 +86,37 @@ ion-checkbox {
   border-radius: 12px;
 }
 
+@media (max-width: 600px) {
+  /* Adatta la larghezza su schermi più piccoli */
+  #card-wrapper {
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  ion-card {
+    padding: 15px;
+  }
+
+  .form-container {
+    padding: 16px;
+  }
+
+  ion-card-title {
+    font-size: 1.4rem;  /* Ridotto la dimensione del titolo su schermi piccoli */
+  }
+
+  ion-button {
+    margin-top: 16px;
+    font-size: 14px;  /* Ridotto il font per i bottoni su schermi piccoli */
+  }
+
+  ion-segment-button {
+    font-size: 12px;  /* Ridotto il font per i segmenti su schermi piccoli */
+  }
+}
+
+.terms-text {
+  font-size: 0.8rem; /* Riduce la dimensione del testo */
+  color: #888; /* Colore grigio chiaro */
+  margin-left: 5px; /* Distanza tra il checkbox e il testo */
+}

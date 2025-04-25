@@ -13,6 +13,7 @@ import {
   IonIcon,
   IonButtons
 } from '@ionic/angular/standalone';
+import { MenuController } from '@ionic/angular';
 
 @Component({
   selector: 'app-root',
@@ -29,13 +30,17 @@ import {
     IonList,
     IonItem,
     IonIcon,
-    IonButtons
+    IonButtons,
   ]
 })
 export class AppComponent {
-  isLoggedIn = false; 
+  isLoggedIn = false;
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private menu: MenuController) {}
+
+  openMenu() {
+    this.menu.open('first');
+  }
 
   navigateToHome() {
     this.router.navigate(['/home']);
