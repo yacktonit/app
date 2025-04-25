@@ -9,7 +9,9 @@ import {
   IonTitle,
   IonContent,
   IonList,
-  IonItem
+  IonItem,
+  IonIcon,
+  IonButtons
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -25,7 +27,9 @@ import {
     IonTitle,
     IonContent,
     IonList,
-    IonItem
+    IonItem,
+    IonIcon,
+    IonButtons
   ]
 })
 export class AppComponent {
