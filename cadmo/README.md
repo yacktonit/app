@@ -16,6 +16,8 @@ Il Mockup iniziale è stato realizzato da Vincenzo Assisi, Suma Uddin, Francesco
 
 Il Betatest finale è stato eseguito da Giovanni Longo.
 
+*Si raccomanda la visione del progetto utilizzando l'aspetto chiaro del dispositivo.*
+
 ## Tecnologie Utilizzate
 
 - **Ionic Framework**: Una piattaforma per la costruzione di applicazioni mobili con tecnologie web.
