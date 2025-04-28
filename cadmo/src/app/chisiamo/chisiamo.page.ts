@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { Router } from '@angular/router';
 import { MenuController } from '@ionic/angular'; 
 import {
@@ -27,11 +27,13 @@ import {
   IonGrid,
 } from '@ionic/angular/standalone';
 
+
 @Component({
   selector: 'app-chisiamo',
   templateUrl: 'chisiamo.page.html',
   styleUrls: ['chisiamo.page.scss'],
   standalone: true,
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     IonHeader,
     IonToolbar,
@@ -56,7 +58,7 @@ import {
     IonCol,
     IonRow,
     IonGrid,
-  ]
+  ],
 })
 export class ChiSiamoPage {
   constructor(private router: Router) {}
